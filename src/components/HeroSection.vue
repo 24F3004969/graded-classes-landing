@@ -39,7 +39,7 @@ const features = [
 
       <!-- Right: Visual -->
       <div class="card shadow-soft" style="padding:24px;background:linear-gradient(160deg, #FDFDFD 0%, #F9FEFD 100%)">
-        <img src="https://placehold.co/720x520/EAECF0/101828?text=Your+Hero+Visual" alt="Hero illustration placeholder" />
+        <img src="../assets/2.jpeg" alt="Hero illustration placeholder" />
         <div style="display:flex;gap:14px;justify-content:center;margin-top:14px;flex-wrap:wrap">
           <span class="badge">10k+ Active Students</span>
           <span class="badge">24+ Categories</span>

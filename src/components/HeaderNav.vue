@@ -19,7 +19,7 @@ const nav = [
         </div>
         <div style="display:flex;align-items:center;gap:5px;">
           <img src="../assets/my-logo.svg" width="75px" height="75px" alt="">
-          <strong><span style="color:var(--primary)" >Classes</span></strong>
+          <strong><span style="color:var(--primary)">Classes</span></strong>
         </div>
       </a>
 
