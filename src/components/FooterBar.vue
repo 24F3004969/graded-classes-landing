@@ -3,7 +3,7 @@
 
 <template>
   <footer id="contact" class="section-ink">
-    <div class="container footer" style="padding-top: 25px;">
+    <div class="container footer" style="padding:25px;">
       <div style="display:grid;gap:18px;grid-template-columns:1.2fr .8fr .8fr">
         <div>
           <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">

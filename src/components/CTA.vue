@@ -11,7 +11,7 @@ function submit(e){
   <div id="cta" class="card" style="padding:28px; background:linear-gradient(135deg, var(--mint) 0%, #A7F3D0 100%); color:#083344">
     <div class="grid grid-2" style="align-items:center">
       <div>
-        <h3 class="title-lg" style="color:#083344">Ready to learn with Graded Classes?</h3>
+        <h3 class="title-lg" style="color:#083344">Ready to learn with GradeEd Classes?</h3>
         <p class="subtitle" style="color:#0f5132">Sign up for updates, offers, and new batches.</p>
       </div>
 
