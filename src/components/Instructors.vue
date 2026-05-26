@@ -5,7 +5,7 @@ const people = [
   {name: 'Shahin Perween', role: 'Hindi Mentor', img: 'src/assets/shahin.png'},
   {name: 'Fahad Yaqub', role: 'Content Mentor', img: 'src/assets/fahad.jpg'},
   {name: 'Helal Anwar', role: 'Programming Mentor / Co-Founder', img: 'src/assets/helal.png'},
-  {name: 'Rahmatullah Baig', role: 'Office Boy', img: 'src/assets/faraz.png'},
+  {name: 'Rahmatullah Baig', role: 'Office Boy', img: 'src/assets/faraz.jpeg'},
 ];
 </script>
 
