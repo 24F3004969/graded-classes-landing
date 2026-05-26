@@ -1,11 +1,11 @@
 <script setup>
 const people = [
-  {name: 'Jaweria Masood', role: 'English Mentor', img: 'src/assets/jav.jpeg'},
-  {name: 'Abdul Basit Khan', role: 'Design Mentor / Founder', img: 'https://placehold.co/320x320?text=Abdul'},
-  {name: 'Shahin Perween', role: 'Hindi Mentor', img: 'src/assets/shaheen.png'},
+  {name: 'Jaweria Masood', role: 'English Mentor', img: 'src/assets/jaweria.png'},
+  {name: 'Abdul Basit Khan', role: 'Design Mentor / Founder', img: 'src/assets/basit.png'},
+  {name: 'Shahin Perween', role: 'Hindi Mentor', img: 'src/assets/shahin.png'},
   {name: 'Fahad Yaqub', role: 'Content Mentor', img: 'src/assets/fahad.jpg'},
   {name: 'Helal Anwar', role: 'Programming Mentor / Co-Founder', img: 'src/assets/helal.png'},
-  {name: 'Aisha Roy', role: 'Exam Coach', img: 'https://placehold.co/320x320?text=Aisha'},
+  {name: 'Rahmatullah Baig', role: 'Office Boy', img: 'src/assets/faraz.png'},
 ];
 </script>
 
