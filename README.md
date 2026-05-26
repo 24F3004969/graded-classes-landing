@@ -1,5 +1,5 @@
 
-# Graded Classes — Landing Page (Vue 3 + Vite)
+# GradeEd Classes — Landing Page
 
 A professional, responsive landing page for **Graded Classes**, matching the Poppins typography and the color palette:
 
