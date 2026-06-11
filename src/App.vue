@@ -1,4 +1,3 @@
-
 <script setup>
 import HeaderNav from './components/HeaderNav.vue';
 import HeroSection from './components/HeroSection.vue';
@@ -12,50 +11,52 @@ import FooterBar from './components/FooterBar.vue';
 </script>
 
 <template>
-  <HeaderNav />
+  <HeaderNav/>
 
   <main>
-    <HeroSection />
+    <HeroSection/>
     <section id="categories" class="section">
       <div class="container">
-        <Categories />
+        <Categories/>
       </div>
     </section>
 
     <section class="section-contrast section">
       <div class="container grid grid-2">
-        <FeatureBanner />
+        <FeatureBanner/>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <StatsBar />
+        <StatsBar/>
       </div>
     </section>
 
     <section id="instructors" class="section">
       <div class="container">
-        <Instructors />
+        <Instructors/>
       </div>
     </section>
 
     <section id="testimonials" class="section-contrast section">
       <div class="container">
-        <Testimonials />
+        <Testimonials/>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <CTA />
+        <CTA/>
       </div>
     </section>
   </main>
 
-  <FooterBar />
+  <FooterBar/>
 </template>
 
 <style scoped>
-main{overflow:hidden}
+main {
+  overflow: hidden
+}
 </style>

@@ -1,13 +1,21 @@
 <script setup>
+import jaweria from '@/assets/jaweria.png'
+import basit from '@/assets/basit.png'
+import shahin from '@/assets/shahin.png'
+import fahad from '@/assets/fahad.jpg'
+import helal from '@/assets/helal.png'
+import faraz from '@/assets/faraz.jpeg'
+
 const people = [
-  {name: 'Jaweria Masood', role: 'English Mentor', img: 'src/assets/jaweria.png'},
-  {name: 'Abdul Basit Khan', role: 'Design Mentor / Founder', img: 'src/assets/basit.png'},
-  {name: 'Shahin Perween', role: 'Hindi Mentor', img: 'src/assets/shahin.png'},
-  {name: 'Fahad Yaqub', role: 'Content Mentor', img: 'src/assets/fahad.jpg'},
-  {name: 'Helal Anwar', role: 'Programming Mentor / Co-Founder', img: 'src/assets/helal.png'},
-  {name: 'Rahmatullah Baig', role: 'Office Boy', img: 'src/assets/faraz.jpeg'},
+  { name: 'Jaweria Masood', role: 'English Mentor', img: jaweria },
+  { name: 'Abdul Basit Khan', role: 'Design Mentor / Founder', img: basit },
+  { name: 'Shahin Perween', role: 'Hindi Mentor', img: shahin },
+  { name: 'Fahad Yaqub', role: 'Content Mentor', img: fahad },
+  { name: 'Helal Anwar', role: 'Programming Mentor / Co-Founder', img: helal },
+  { name: 'Rahmatullah Baig', role: 'Office Boy', img: faraz },
 ];
 </script>
+``
 
 <template>
   <div>

@@ -1,9 +1,11 @@
-
 <script setup>
 const items = [
-  { name: 'Rayyan Akhtar', text: 'Structured content and weekly doubt clearing helped me finish my portfolio in 6 weeks.' },
-  { name: 'Iram  Akhtar', text: 'The language course is practical and interactive. Loved the live activities.' },
-  { name: 'Tahreem Parween', text: 'Finance basics finally made sense—clean examples and assignments.' }
+  {
+    name: 'Rayyan Akhtar',
+    text: 'Structured content and weekly doubt clearing helped me finish my portfolio in 6 weeks.'
+  },
+  {name: 'Iram  Akhtar', text: 'The language course is practical and interactive. Loved the live activities.'},
+  {name: 'Tahreem Parween', text: 'Finance basics finally made sense—clean examples and assignments.'}
 ];
 </script>
 

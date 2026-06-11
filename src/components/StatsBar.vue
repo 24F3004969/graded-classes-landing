@@ -1,13 +1,13 @@
-
 <script setup>
-import { onMounted, ref } from 'vue';
+import {onMounted, ref} from 'vue';
+
 const stats = [
-  { label: 'Learners', value: 268000 },
-  { label: 'Categories', value: 24 },
-  { label: 'Lessons', value: 550 },
-  { label: 'Community', value: 3800000 },
+  {label: 'Learners', value: 268000},
+  {label: 'Categories', value: 24},
+  {label: 'Lessons', value: 550},
+  {label: 'Community', value: 3800000},
 ];
-const animated = ref([0,0,0,0]);
+const animated = ref([0, 0, 0, 0]);
 
 onMounted(() => {
   const el = document.getElementById('stats-observe');
@@ -16,7 +16,7 @@ onMounted(() => {
       stats.forEach((s, i) => {
         const duration = 1000, start = performance.now();
         const step = (t) => {
-          const p = Math.min((t - start)/duration, 1);
+          const p = Math.min((t - start) / duration, 1);
           animated.value[i] = Math.floor(s.value * p);
           if (p < 1) requestAnimationFrame(step);
         };
@@ -24,7 +24,7 @@ onMounted(() => {
       });
       io.disconnect();
     }
-  }, { threshold: 0.3 });
+  }, {threshold: 0.3});
   if (el) io.observe(el);
 });
 </script>
